@@ -2,6 +2,14 @@
     <img src="https://s19.postimg.org/jblfytw9f/laradock-logo.jpg" alt="Laradock Logo"/>
 </p>
 
+
+1. Install docker and docker-compose
+2. docker-compose exec workspace bash
+3. composer install
+4. docker-compose up -d nginx
+5. docker-compose logs nginx to troubleshoot
+
+
 ## How to setup ssl with laradock?
 
 To setup ssl certificate with nginx in laradock, follow these steps:
